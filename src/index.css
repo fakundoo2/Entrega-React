@@ -7,7 +7,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header{
+  display: flex;
+  background-color: rgb(54, 139, 181);
+  justify-content: space-between;
+}
+
+.titulo{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: aliceblue;
+   padding-left: 1rem;
+}
+
+.lista{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-right: 2rem;
+}
+
+li{
+  padding: 1rem;
+}
+
+li a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 550;
+  color: rgb(34, 34, 34);
+}
+
+li a:hover{
+  color: aliceblue;
+}
+
+.logo-carrito{
+  width: 50px;
+  height: 50px;
 }
